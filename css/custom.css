@@ -1,0 +1,196 @@
+
+.header .topbar {
+    background-color: orange;
+    height: 40px;
+    padding: 0;
+    font-size: 14px;
+    transition: all 0.5s;
+}
+
+.cta-btn{
+    color: white !important;
+    background: orange ;
+    font-size: 14px !important;
+    padding: 8px 25px !important;
+    margin: 0 0 0 30px !important;
+    border-radius: 50px !important;
+    transition: 0.3s;
+}
+
+.imagebike{
+    width: 30% !important;
+    margin-left: 66%;
+    margin-top: -30%;
+}
+
+.fourblock-btn{
+    color: #007bff !important;
+    background: #fff;
+    font-size: 14px !important;
+    padding: 5px 5px !important;
+    margin: 0 0 0 0px !important;
+    border-radius: 5px !important;
+    border: 2px solid #007bff;
+    transition: 0.3s;
+
+}
+
+
+.cta-btn_text a:after {
+
+    background: none;
+}
+
+.contact-info {
+    padding: 30px 0 27px;
+}
+
+/* 
+3 rd section css */
+
+
+section, .section {
+    color: var(--default-color);
+    background-color: var(--background-color);
+    /* padding: 60px 0; */
+    scroll-margin-top: 98px;
+    overflow: clip;
+}
+
+.rowborder {
+    border:1px solid grey;
+
+}
+
+.stats .stats-item {
+    box-shadow: 0px 0 30px color black, transparent 92%;
+    padding: 30px;
+}
+
+.stats .stats-item i {
+    color: var(--accent-color);
+    font-size: 42px;
+    line-height: 0;
+    margin-right: 20px;
+}
+
+.stats .stats-item span {
+    color: var(--heading-color);
+    font-size: 36px;
+    display: block;
+    font-weight: 600;
+}
+.stats .stats-item p {
+    padding: 0;
+    margin: 0;
+    font-family: var(--heading-font);
+    font-size: 13px;
+}
+
+/* end hre */
+
+/* card css */
+
+.order-card {
+    color: #fff;
+}
+
+.bg-c-blue {
+    background: linear-gradient(45deg,#4099ff,#73b4ff);
+}
+
+.bg-c-green {
+    background: linear-gradient(45deg,#2ed8b6,#59e0c5);
+}
+
+.bg-c-yellow {
+    background: linear-gradient(45deg,#FFB64D,#ffcb80);
+}
+
+.bg-c-pink {
+    background: linear-gradient(45deg,#FF5370,#ff869a);
+}
+
+
+.card {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+    box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+    border: none;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.card .card-block {
+    padding: 25px;
+}
+
+.order-card i {
+    font-size: 26px;
+}
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+}
+
+.aloeverahead{
+    font-family: sans-serif !important;
+}
+/* end here */
+
+.ctastar {
+    background: linear-gradient(rgb(0 0 0 / 7%), rgba(0, 0, 0, 0.6)),  
+    url(../img/banner/ban11.png) ;
+    background-size: cover;
+    padding: 90px 0;
+}
+.lastp{
+
+    font-size: 28px;
+    color: black;
+}
+.lastsub{
+    margin-top:6%;
+}
+.hrclass{
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 2px solid orange;
+}
+.ctastar h3 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.ctastar p {
+    color: #fff;
+}
+
+@media (min-width: 769px) {
+    .ctastar .ctast-btn-container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+}
+
+.ctastar .ctast-btn {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 2px;
+    transition: 0.5s;
+    margin: 10px;
+    background: #009961;
+    color: #fff;
+    border-radius: 50px;
+}
